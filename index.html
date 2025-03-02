@@ -25,13 +25,13 @@
     </section>
 
     <section class="container mx-auto mt-4 bg-white">
-        <div class="flex space-x-10">
+        <div class="flex gap-5">
 
             <!--left er 3ta part-->
-            <div class="w-4/6">
+            <div class="w-4/6 gap-5">
                 
-                <div class="flex justify-around space-x-10 ">
-                    <div class="flex bg-[#F4F7FF] justify-center items-center p-5 space-x-4">
+                <div class="flex justify-between space-x-10">
+                    <div class="flex bg-[#F4F7FF] justify-center items-center p-5 rounded-md space-x-4 mx-3">
                         <div>
                             <img src="images/checkbox.png">
                 
@@ -42,7 +42,7 @@
                         </div>
                     </div>
         
-                    <div id="discover" class="flex flex-col-span-4 bg-blue-500 justify-center items-center p-5">
+                    <div id="discover" class="flex  bg-blue-500 justify-center items-center p-5">
                         <img class="p-3" src="images/board.png">
                         <p class="text-white font-semibold justify-center p-2">Discover something new today</p>
                     </div>    
@@ -84,7 +84,7 @@
                     <!-- card-2 -->
                     <div class="bg-[#F4F7FF] p-4">
                         <div>
-                            <button class="btn bg-white rounded-lg">Soft Pay</button>
+                            <button class="btn  bg-white rounded-lg">Soft Pay</button>
                             <p id="kotha" class="font-semibold text-xl mt-2">Add Pay Success Model</p>
 
                             <p class="bg-white p-3 mt-2 text-gray">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
@@ -192,14 +192,18 @@
 
 
             <!-- right side-->
-            <div class="w-2/6">
-                <div id="activitymain" class="pl-25 justify-center items-center p-5">
-                    <div class="flex">
-                        <img src="images/activity.png">
-                        <h1 id="">Activity Log</h1>
+            <div class="w-2/6 bg-green-200">
+                <div id="activitymain" class="justify-center items-center">
+                    <div class="flex justify-center items-center mt-5">
+                        <img class="" src="images/activity.png">
+                        <h1 class="px-2">Activity Log</h1>
                     </div>
-                    <button id="clear-history" class="btn bg-blue-500 mt-5">Clear History</button>
-                    <div id="activity">
+
+                    <div class="flex justify-center items-center">
+                        <button id="clear-history" class="btn bg-blue-500 mt-5">Clear History</button>
+
+                    </div>                    
+                    <div id="activity" class="mx-3">
 
                     </div>
                 </div>
@@ -227,5 +231,7 @@
     </script>
     
     <script src="js/script.js"></script>
+    <script src="js/back.js"></script>
+    <script src="js/time.js"></script>
 </body>
 </html>

@@ -57,7 +57,7 @@ for(let i = 0; i < btn.length; i++){
 
 
         p.innerText = `
-        You have completed  the task ${kotha} at updateTime
+        You have completed  the task ${kotha} at ${new Date().toLocaleTimeString()}
         `
         activity.appendChild(p);
     });
