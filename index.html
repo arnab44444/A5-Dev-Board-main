@@ -7,8 +7,8 @@
     <link href="https://cdn.jsdelivr.net/npm/daisyui@5.0.0-beta.9/daisyui.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
-<body class="bg-gray-200">
-    <section class="container mx-auto ">
+<body class="">
+    <nav class="container mx-auto ">
         <header>
             <nav class="flex bg-white shadow-lg p-2 justify-between">
                 <div class="flex">
@@ -22,16 +22,16 @@
                 </div>
             </nav>
         </header>
-    </section>
+    </nav>
 
-    <section class="container mx-auto mt-4 bg-white">
-        <div class="flex gap-5">
+    <section class="container mx-auto mt-4 ">
+        <div class="flex space-x-10">
 
             <!--left er 3ta part-->
-            <div class="w-4/6 gap-5">
+            <div class="w-4/6 rounded-md mx-5 bg-gray-300">
                 
-                <div class="flex justify-between space-x-10">
-                    <div class="flex bg-[#F4F7FF] justify-center items-center p-5 rounded-md space-x-4 mx-3">
+                <div class="flex justify-between "> <!--gap o dewa jabe-->
+                    <div class="flex bg-[#F4F7FF] justify-center items-center p-5 rounded-md space-x-4 mx-3 my-5">
                         <div>
                             <img src="images/checkbox.png">
                 
@@ -42,12 +42,12 @@
                         </div>
                     </div>
         
-                    <div id="discover" class="flex  bg-blue-500 justify-center items-center p-5">
+                    <div id="discover" class="flex  bg-blue-500 justify-center rounded-md items-center p-5 my-5">
                         <img class="p-3" src="images/board.png">
                         <p class="text-white font-semibold justify-center p-2">Discover something new today</p>
                     </div>    
                     
-                    <div class="flex bg-[#F4F7FF] justify-center items-center p-5">
+                    <div class="flex bg-[#F4F7FF] justify-center items-center p-5 mx-5 my-5 rounded-md">
                         <img class="w-6 h-6 mx-3" src="images/calender.png">
                         <p id="date-day"></p>
                     </div>
